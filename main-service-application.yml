@@ -6,7 +6,7 @@ spring:
 #     username: portname
 #     password: 123
 #     port: 5672
-# rabbitmq:
+rabbitmq:
   exchange-main: "main-service-exchange"
   bindingKey:     "main-binding-key"
   queueActivatedCode: "main-queue-code"
