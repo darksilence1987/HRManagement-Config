@@ -8,7 +8,7 @@ spring:
 #     port: 5672
   data:
     mongodb:
-      host: 34.28.66.79
+      host: 34.171.87.50
       port: 27777
       database: userDb
       username: team3
