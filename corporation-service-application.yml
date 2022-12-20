@@ -10,7 +10,7 @@ spring:
     mongodb:
       host: 34.171.87.50
       port: 27777
-      database: corpDb
+      database: userDb
       username: team3
       password: "root"
 
