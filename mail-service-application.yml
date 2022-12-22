@@ -1,0 +1,34 @@
+server:
+  port: 8094
+
+spring:
+  rabbitmq:
+    host: localhost
+    username: portname
+    password: 123
+    port: 5672
+    service:
+      name: mail-service
+#  mail:
+#    host: ${mailservicehost}
+#    port: ${mailserviceport}
+#    username: ${mailserviceusername}
+#    password: ${mailservicepassword}
+
+   mail:
+     host: smtp.gmail.com
+     port: 587
+     username: kaankara1987.mtg@gmail.com
+     password: bixuccfcdceabtkw
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+# rabbitmq:
+#  queueAcvitavted: ${rabbitmq-queueAcvitavted}
+
+
+
